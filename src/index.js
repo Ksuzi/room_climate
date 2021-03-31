@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+import HomePage from './layouts/HomePage';
+
+import "./assets/plugins/nucleo/css/nucleo.css";
+import "./assets/css/argon-dashboard-react.css";
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <HomePage />
   </React.StrictMode>,
   document.getElementById('root')
 );
